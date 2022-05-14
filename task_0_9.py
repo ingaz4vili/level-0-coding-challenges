@@ -1,6 +1,6 @@
-def Vowels_String(string, vowels):
-    results = [each for each in string if each in vowels]
-    print(results)
-string = "Umuzi"
-vowels = "AaEeIiOoUu"
-Vowels_String(string, vowels);
+import collections as ct
+def vowels_string(text):
+    vowels = "aeiuo" 
+    result = [letter for letter in text.lower() if letter in vowels]
+    print(" ,".join(ct.OrderedDict.fromkeys(result)))
+vowels_string("Umuzi")

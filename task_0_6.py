@@ -1,8 +1,4 @@
-num1=1
-num2=22
-num3=3
-num4=2
-def maxi():
+def maxi(num1,num2,num3,num4):
     if(num1>=num2) and (num1>=num3) and (num1>=num4):
         high_num=num1
     elif(num2>=num1) and (num2>=num3) and (num2>=num4):
@@ -12,4 +8,4 @@ def maxi():
     else:
          high_num=num4
     print("Largest number is",high_num)
-maxi()
+maxi(2,4,7,8)
