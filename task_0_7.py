@@ -1,13 +1,13 @@
-def celsius_to_fahrenheit(fahrenheit):
-    fahrenheit = (fahrenheit - 32) * 5 / 9
-    return fahrenheit
-def fahrenheit_to_celsius(celsius):
-    celsius = (celsius * 9 / 5) + 32
-    return celsius
-fahrenheit = 21
-celsius = 21
-print(celsius_to_fahrenheit(fahrenheit),"Fahrenheit value")
-print(fahrenheit_to_celsius(celsius),"Celsius value")
+def celsius_to_fahrenheit(temperature_01):
+    temperature_01 = (temperature_01 - 32) * 5 / 9
+    return temperature_01
+def fahrenheit_to_celsius(temperature_02):
+    temperature_02 = (temperature_02 * 9 / 5) + 32
+    return temperature_02
+temperature_01 = 21
+temperature_02 = 21
+print("Fahrenheit value:",celsius_to_fahrenheit(temperature_01))
+print("Celsius value:",fahrenheit_to_celsius(temperature_02))
 
 
 
