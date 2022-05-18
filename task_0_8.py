@@ -1,11 +1,13 @@
 def convert(number):
-    hour = number // 60 
-    minutes = number % 60
-    if hour == 1 and minutes == 1:
+    num1 = 60
+    num2 = 1 
+    hour = number // num1 
+    minutes = number % num1
+    if hour == num2 and minutes == num2:
         print(f'{hour} hour, {minutes} minute')
-    elif hour > 1 and minutes == 1:
+    elif hour > num2 and minutes == num2:
          print(f'{hour} hours, {minutes} minute') 
-    elif minutes > 1 and hour == 1:
+    elif minutes > num2 and hour == num2:
         print(f'{hour} hour, {minutes} minutes')
     else:
         print(f'{hour} hours, {minutes} minutes')
