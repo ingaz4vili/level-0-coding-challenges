@@ -9,9 +9,11 @@ def convert(number):
          print(f'{hour} hours, {minutes} minute') 
     elif minutes > num2 and hour == num2:
         print(f'{hour} hour, {minutes} minutes')
+    elif minutes == num2 and hour == num2:
+            print(f'{hour} hour, {minutes} minutes')
     else:
         print(f'{hour} hours, {minutes} minutes')
-convert(133)
+convert(71)
 
 
  
