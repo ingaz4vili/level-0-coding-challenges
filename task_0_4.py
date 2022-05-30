@@ -1,7 +1,7 @@
 def even_or_odd(num1):
         result = num1 % 2
         if result > 0:
-            print("Odd")
+            print("odd")
         else:
-            print("Even")
+            print("even")
 even_or_odd(3)

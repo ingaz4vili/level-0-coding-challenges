@@ -13,7 +13,7 @@ def convert(number):
             print(f'{hour} hour, {minutes} minutes')
     else:
         print(f'{hour} hours, {minutes} minutes')
-convert(71)
+convert(1)
 
 
  
